@@ -149,10 +149,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans                          &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &kp LC(G)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans       &trans  &trans                          &trans
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                       &trans  &trans  &trans  &kp LC(O)  &kp LC(P)
+&trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)               &trans  &trans  &trans  &trans  &trans     &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp LC(G)    &trans  &trans  &trans  &trans  &trans     &trans
+&trans     &trans     &trans     &trans     &trans     &trans       &trans  &trans                             &trans
             >;
         };
 
