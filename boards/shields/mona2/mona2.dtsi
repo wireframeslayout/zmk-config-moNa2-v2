@@ -85,6 +85,15 @@
                 ;
     };
 
+    //zip_temp_layerのオーバーライド: タイピング中の誤発動防止
+    //最後のキー入力から150ms経過するまでオートマウスレイヤーを有効化しない
+};
+
+&zip_temp_layer {
+    require-prior-idle-ms = <150>;
+};
+
+/ {
     //right hand trackball
     trackball_central_listener: trackball_central_listener {
         compatible = "zmk,input-listener";
