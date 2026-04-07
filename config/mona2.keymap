@@ -178,9 +178,9 @@
         layer_5 {
             bindings = <
 &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                       &kp LC(Y)  &kp LC(U)  &kp LC(I)      &kp LC(O)    &kp LC(P)
-&trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)               &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &kp LC(BACKSPACE)
+&trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)               &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)      &kp LC(L)    &kp LC(BACKSPACE)
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp LC(G)    &trans  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)  &kp LC(ENTER)
-&trans     &trans     &trans     &trans     &trans     &trans       &trans  &trans                                          &trans
+&trans     &trans     &trans     &trans     &trans     &trans       &trans  &trans                                            &trans
             >;
         };
 
@@ -195,10 +195,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans            &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &lt_to_layer_0 1 LANG2    &lt_to_layer_0 1 LANGUAGE_2  &trans    &trans  &lt_to_layer_0 2 LANG1                                &trans
+&trans  &trans    &trans    &trans                  &trans                                         &trans                  &trans    &trans    &trans    &trans
+&trans  &mkp MB3  &mkp MB2  &mkp MB1                &trans                                 &trans  &trans                  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans    &trans    &trans                  &trans                       &trans    &trans  &trans                  &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans    &trans    &lt_to_layer_0 1 LANG2  &lt_to_layer_0 1 LANGUAGE_2  &trans    &trans  &lt_to_layer_0 2 LANG1                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
