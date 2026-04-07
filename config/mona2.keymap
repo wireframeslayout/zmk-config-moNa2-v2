@@ -107,10 +107,10 @@
 
         layer_2 {
             bindings = <
-&kp ESC         &kp LS(EXCL)  &kp LS(AT)         &kp LS(POUND)  &kp LS(DLLR)                                  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp GRAVE
-&kp TAB         &kp TILDE     &kp DOUBLE_QUOTES  &kp SQT        &kp NON_US_BACKSLASH            &trans        &mkp MB3       &mkp MB1       &mkp MB2      &kp EQUAL     &kp PLUS
-&kp LEFT_SHIFT  &trans        &trans             &trans         &trans                &trans    &trans        &trans         &trans         &trans        &trans        &trans
-&trans          &trans        &trans             &trans         &trans                &trans    &kp LEFT_GUI  &trans                                                    &trans
+&kp ESC         &kp LS(EXCL)  &kp LS(AT)         &kp LS(POUND)  &kp LS(DLLR)                                     &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp GRAVE
+&kp TAB         &kp TILDE     &kp DOUBLE_QUOTES  &kp SQT        &kp NON_US_BACKSLASH               &trans        &mkp MB3       &mkp MB1       &mkp MB2      &kp EQUAL     &kp PLUS
+&kp LEFT_SHIFT  &trans        &trans             &trans         &mkp LCLK             &mkp RCLK    &trans        &trans         &trans         &trans        &trans        &trans
+&trans          &trans        &trans             &trans         &trans                &trans       &kp LEFT_GUI  &trans                                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -118,10 +118,10 @@
 
         layer_1 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 4  &trans  &kp SLASH   &kp PLUS                               &kp N7        &kp N8        &kp N9        &trans         &kp GRAVE
-&bt BT_SEL 1  &trans        &trans  &kp PERIOD  &kp MINUS                   &mkp RCLK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BACKSPACE  &kp SEMICOLON
-&bt BT_SEL 2  &trans        &trans  &trans      &kp ASTERISK  &mkp LCLK     &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER      &kp SLASH
-&bt BT_SEL 3  &trans        &trans  &trans      &trans        &bt BT_CLR    &trans     &trans                                                   &trans
+&bt BT_SEL 0  &bt BT_SEL 4  &trans  &kp SLASH   &kp PLUS                            &kp N7        &kp N8        &kp N9        &trans         &kp GRAVE
+&bt BT_SEL 1  &trans        &trans  &kp PERIOD  &kp MINUS                   &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp BACKSPACE  &kp SEMICOLON
+&bt BT_SEL 2  &trans        &trans  &trans      &kp ASTERISK  &trans        &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER      &kp SLASH
+&bt BT_SEL 3  &trans        &trans  &trans      &trans        &bt BT_CLR    &trans  &trans                                                   &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
