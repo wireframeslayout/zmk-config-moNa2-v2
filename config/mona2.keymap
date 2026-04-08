@@ -71,7 +71,7 @@
         mkp_to_layer_0: mkp_to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &mkp MACRO_PLACEHOLDER>, <&to 0>;
+            bindings = <&macro_param_1to1 &mkp MACRO_PLACEHOLDER &to 0>;
             label = "MKP_TO_LAYER_0";
         };
 
@@ -142,10 +142,10 @@
 
         layer_2 {
             bindings = <
-&kp ESC         &kp LS(EXCL)  &kp LS(AT)         &kp LS(POUND)  &kp LS(DLLR)                                     &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp GRAVE
-&kp TAB         &kp TILDE     &kp DOUBLE_QUOTES  &kp SQT        &kp NON_US_BACKSLASH               &trans        &mkp MB3       &mkp MB1       &mkp MB2      &kp EQUAL     &kp SEMICOLON
-&kp LEFT_SHIFT  &trans        &trans             &trans         &mkp LCLK             &mkp RCLK    &trans        &trans         &trans         &trans        &trans        &trans
-&trans          &trans        &trans             &trans         &trans                &trans       &kp LEFT_GUI  &trans                                                    &trans
+&kp ESC         &kp LS(EXCL)  &kp LS(AT)         &kp LS(POUND)  &kp LS(DLLR)                                       &kp LS(PRCNT)  &kp LS(CARET)   &kp LS(AMPS)  &kp LS(STAR)  &kp GRAVE
+&kp TAB         &kp TILDE     &kp DOUBLE_QUOTES  &kp SQT        &kp NON_US_BACKSLASH               &kp LEFT_ARROW  &kp UP_ARROW   &kp DOWN_ARROW  &kp RIGHT     &kp EQUAL     &kp SEMICOLON
+&kp LEFT_SHIFT  &trans        &trans             &trans         &mkp LCLK             &mkp RCLK    &trans          &trans         &trans          &trans        &trans        &trans
+&trans          &trans        &trans             &trans         &trans                &trans       &kp LEFT_GUI    &trans                                                     &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -202,10 +202,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans    &trans                  &trans                                         &trans                  &trans     &trans    &trans  &trans
+&trans  &trans  &trans    &trans                  &trans                                         &trans                  &trans     &trans               &trans  &trans
 &trans  &trans  &mkp MB4  &mkp MB5                &trans                                 &trans  &trans                  &trans     &mkp_to_layer_0 MB2  &trans  &trans
-&trans  &trans  &trans    &trans                  &trans                       &trans    &trans  &trans                  &mkp LCLK  &trans    &trans  &trans
-&trans  &trans  &trans    &lt_to_layer_0 1 LANG2  &lt_to_layer_0 1 LANGUAGE_2  &trans    &trans  &lt_to_layer_0 2 LANG1                               &trans
+&trans  &trans  &trans    &trans                  &trans                       &trans    &trans  &trans                  &mkp LCLK  &trans               &trans  &trans
+&trans  &trans  &trans    &lt_to_layer_0 1 LANG2  &lt_to_layer_0 1 LANGUAGE_2  &trans    &trans  &lt_to_layer_0 2 LANG1                                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
