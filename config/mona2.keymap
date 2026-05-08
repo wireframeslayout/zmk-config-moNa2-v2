@@ -184,7 +184,7 @@
 
         layer_5 {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                       &kp LC(Y)  &kp LC(U)  &kp LC(I)      &kp LC(O)    &kp LC(P)
+&trans     &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                       &kp LC(Y)  &kp LC(U)  &kp LC(I)      &kp LC(O)    &kp LC(P)
 &trans     &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)               &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)      &kp LC(L)    &kp LC(BACKSPACE)
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp LC(G)    &trans  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)  &kp LC(ENTER)
 &trans     &trans     &trans     &trans     &trans     &trans       &trans  &trans                                            &trans
